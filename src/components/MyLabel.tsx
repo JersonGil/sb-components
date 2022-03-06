@@ -23,7 +23,7 @@ export interface MyLabelProps {
   fontColor?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   allCaps = false,
   color = 'primary',
   fontColor,
@@ -37,4 +37,3 @@ const MyLabel = ({
   )
 }
 
-export default MyLabel
